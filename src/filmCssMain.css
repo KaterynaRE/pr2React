@@ -1,0 +1,117 @@
+.imgBack {
+    background-image: url('600px-ButterflyGlyph.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.divInfoFilm {
+    z-index: 100;
+}
+
+#h1NameFilm {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 100px;
+    letter-spacing: 40px;
+    position: absolute;
+    left: 155px;
+    top: 480px;
+    z-index: 3500;
+    text-shadow: 13px 8px 3px black;
+}
+
+.imgM {
+    position: absolute;
+    top: 483px;
+    left: 5px;
+    width: 250px;
+    height: 320px;
+    z-index: 2000;
+    border-right: #61dafb 2px solid;
+    border-bottom: #61dafb 2px solid;
+}
+
+.small-image {
+    position: absolute;
+    top: 805px;
+    left: 5px;
+    width: 250px;
+    height: 332px;
+    z-index: 3000;
+
+}
+
+.divBlack {
+    background-color: black;
+    top: 933px;
+    left: 10px;
+    height: 203px;
+    width: 100%;
+    z-index: 200;
+    position: absolute;
+    border-top: #61dafb 2px solid;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 80px;
+    top: 0;
+    z-index: 1000;
+    left: -320px;
+}
+
+.divPRegeser {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -30px;
+    left: 85px;
+}
+
+.pInfo {
+    color: white;
+    position: relative;
+    left: 300px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.pInfoYear {
+    color: white;
+    position: relative;
+    left: -315px;
+    top: -50px;
+}
+
+.pActors {
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+    top: -60px;
+    left: -350px;
+}
+
+.ulActors {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+.namesActor {
+    color: white;
+    position: relative;
+    padding: 0 10px 0 10px;
+    left: 400px;
+    top: -90px;
+}
